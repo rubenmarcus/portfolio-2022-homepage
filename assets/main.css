@@ -1,0 +1,74 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap');
+
+
+body{
+   background: #f4f4f4;
+
+    font-weight:lighter;
+    font-family: 'Rubik';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    justify-items: center;
+    align-items: center;
+    overflow:hidden;
+}
+img{ border-radius: 100%;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;}
+.typed span{ font-size: 20px; color:#333;    margin:0 auto;}
+.typed span:nth-child(1){
+    padding :10px 0px 10px 0px;
+}
+h1 {
+    padding: 5px;
+    
+      background:  rgba(191, 191, 191, 0.3);
+    color:#000;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+h1:hover {
+  color: #fff;
+      background: rgba(66, 65, 63, 0.3);
+
+}
+.typed {
+    margin-top: -17px;
+    display: block;
+}
+
+
+footer{position:fixed; bottom:0; left:0; 
+       background: linear-gradient(-55deg, #1241b3, #3ccfe7, #23a6d5, #23d5ab);
+   background-size:300% 300%;
+	animation: gradient 10s ease infinite;
+ /* background:  rgba(191, 191, 191, 0.3);  */
+ padding:10px; width:100%; font-size:13px; letter-spacing:1px;}
+a { color:#fff; text-decoration:none;}
+footer a{ margin:5px;}
+footer a:hover{
+
+      background:  rgba(191, 191, 191, 0.3);
+    color:#000;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
