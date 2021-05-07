@@ -27,6 +27,7 @@ export default function Home() {
       <a href="https://rubenmarcus.medium.com/"><img src="./medium.svg" /></a>
       <a href="https://stackoverflow.com/users/5905497/ruben-marcus"><img src="./stack.svg" /></a>
       <a href="https://linkedin.com/in/rubenmarcus"><img src="./linkedin.svg" /></a>
+      <a href="mailto:ruben@rubenmarcus.dev"><img src="./mail.svg" /></a>
       </div>
      </aside>
     </Layout>
