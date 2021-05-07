@@ -2,24 +2,46 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
-body{
-   background: #f4f4f4;
-
-    font-weight:lighter;
+body {
+    background: #f4f4f4;
+    font-weight: lighter;
     font-family: 'Rubik';
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+    height: 99vh;
     width: 100vw;
     margin: 0;
-    justify-items: center;
-    align-items: center;
-    overflow:hidden;
+    border-top: solid 3px #00a1ff;
 }
-img{ border-radius: 100%;
+
+a{color:black;}
+a:hover{ color:#fff}
+.blue-text{color:#00a1ff;  font-family: 'Rubik';}
+main {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    height:90vh;
+    align-items: center;
+    justify-items: center;
+}
+
+article{ padding-right:30px;}
+article p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    width: 93%;
+}
+.socialLinks {
+    display: flex;
+    justify-items: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+    transform: scale(0.8);
+}
+.me{ border-radius: 100%;
 border-right: 1px solid #ccc;
 border-bottom: 1px solid #ccc;}
 .typed span{ font-size: 20px; color:#333;    margin:0 auto;}
@@ -33,7 +55,7 @@ h1 {
     color:#000;
     font-size: 22px;
     font-weight: normal;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 h1:hover {
@@ -53,13 +75,43 @@ footer{position:fixed; bottom:0; left:0;
 	animation: gradient 10s ease infinite;
  /* background:  rgba(191, 191, 191, 0.3);  */
  padding:10px; width:100%; font-size:13px; letter-spacing:1px;}
-a { color:#fff; text-decoration:none;}
+a { text-decoration:none;}
 footer a{ margin:5px;}
 footer a:hover{
 
       background:  rgba(191, 191, 191, 0.3);
     color:#000;
 }
+h2 {
+    font-size: 40px;
+    margin-top: 0px;
+}
+article {text-align: left; width:100%}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    background: #e8e8e8;
+    border-radius: 11px;
+    padding: 28px;
+    margin-right: 55px;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 1024px) {
+    main {
+        margin-top: 30px!important;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+        width: 100vw!important;
+    }
+    section {
+        margin: 0 auto;
+        width: 78%;
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
+  }
 
 @keyframes gradient {
 	0% {
