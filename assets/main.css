@@ -15,12 +15,16 @@ a {
   color: black;
 }
 a:hover {
-  color: #fff;
+  color: #00a1ff;
 }
 .blue-text {
   color: #00a1ff;
   font-family: "Rubik";
 }
+.blue-text:hover {
+  color: #000;
+}
+
 main {
   width: 900px;
   margin: 0 auto;
@@ -147,4 +151,15 @@ section {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.bottomLinks {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
